@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Código Javascript</title>
+</head>
+<body>
+    <h2>JavaScript no Corpo da Página</h2>
+
+    <p id="demo">Exemplo de Parágrafo</p>
+
+    <button type="button" onclick="mudaParagrafo()">Mudar</button>
+    
+    <script>
+        function mudaParagrafo() {
+            document.getElementById("demo").innerHTML = "Parágrafo alterado";
+        }
+    </script>
+
+</body>
+</html>
